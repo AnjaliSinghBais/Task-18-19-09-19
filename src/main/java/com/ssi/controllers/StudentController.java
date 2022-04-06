@@ -47,6 +47,7 @@ public class StudentController {
 		ModelAndView mv=new ModelAndView("searchresult");
 		mv.addObject("students", students);
 		return mv;
+//return mv;
 	}
 	
 	
