@@ -34,6 +34,7 @@ public class StudentController {
 		List<Student> students=studentService.viewAllStudents();
 		ModelAndView mv=new ModelAndView("studentlist");
 		mv.addObject("students", students);
+//xyz just to checkand understand git
 		return mv;
 	}
 	
